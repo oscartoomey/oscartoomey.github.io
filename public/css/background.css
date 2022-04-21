@@ -1,0 +1,59 @@
+body {
+  padding-top: 60px;
+  background: grey;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  margin-bottom: 30px !important;
+}
+
+.btn-outline-danger {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0px;
+  align-items: center;
+  justify-content: space-between;
+  height: 50vh;
+  padding-top: 10%;
+}
+
+.boxes {
+  display: flex;
+  flex: 1 1 0px;
+  align-items: center;
+  justify-content: space-around;
+  height: 30vh;
+}
+
+.strava {
+  display: flex;
+  flex: 1 1 0px;
+  align-items: center;
+  justify-content: space-around;
+  height: 20vh;
+  color: orangered !important;
+}
+
+.btn-block {
+  background-color: #fc4c02;
+  outline: #fc4c02;
+  color: white;
+}
+
+.btn-block:hover {
+  background-color: #cf4003;
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}
+
+.card {
+  background-color: lightgrey;
+}
